@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Detail</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+        .ellipse {
+            width: 100px;
+            height: 50px;
+            border-radius: 50% / 100%;
+        }
+    </style>
+</head>
+
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary shadow p-3">
+            <div class="container gy-2 justify-content-between">
+                <a class="navbar-brand" href="/index.html"><img src="./assets/images/blanja_logo.svg" alt="blanja logo"
+                        class="img-fluid" width="120px"></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse gap-4" id="navbarSupportedContent">
+                    <div class="input-group align-items-center ">
+                        <input class="form-control border border-end-0 rounded-start-pill" placeholder="Search"
+                            type="search" value="search" id="example-search-input">
+                        <span class="input-group-text bg-white border border-start-0 rounded-end-circle">
+                            <i class="bi bi-search"></i>
+                        </span>
+                        <i class="bi bi-funnel border rounded-3 p-2 mx-2"></i>
+                    </div>
+                    <div class="gap-2 d-flex justify-content-sm-center flex-lg-row align-items-center">
+                        <i class="bi bi-cart mx-3"></i>
+                        <button class="btn btn-danger btn-sm rounded-pill ">Login</button>
+                        <button class="btn btn-outline-danger btn-sm rounded-pill">Register</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-12">
+                    <p class="text-secondary">Home > Category > T-Shirt</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <img src="./assets/images/detail/1de17b40-c750-40ed-a618-ca2c5ee79da0 3.png"
+                            class="img-fluid rounded" alt="">
+                        <div class="row mt-2">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <img src="./assets/images/detail/4bcf6332-eea3-4278-8c75-9be1f59cbfa3 2.png"
+                                    class="img-fluid rounded" alt="">
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <img src="./assets/images/detail/5f9d591f-54e0-4f48-99c8-33e5ab47c871 2.png"
+                                    class="img-fluid rounded" alt="">
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <img src="./assets/images/detail/ef0755f4-97be-42d3-a1e9-e3c892b52706 2.png"
+                                    class="img-fluid rounded" alt="">
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <img src="./assets/images/detail/ef0755f4-97be-42d3-a1e9-e3c892b52706 2.png"
+                                    class="img-fluid rounded" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <h3 class="fw-bold">Baju Muslim Pria</h3>
+                        <p class="text-secondary">Zalora Cloth</p>
+                        <div class="d-flex text-warning">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                            <p class="text-secondary mx-2">(10)</p>
+                        </div>
+                        <p class="text-secondary">Price</p>
+                        <h2 class="fw-bold">$ 20.0</h2>
+                        <div class="div">
+                            <p class="fw-bold">Color</p>
+                            <i class="bi bi-circle-fill fs-3"></i>
+                            <i class="bi bi-circle-fill fs-3 text-primary"></i>
+                            <i class="bi bi-circle-fill fs-3 text-danger"></i>
+                            <i class="bi bi-circle-fill fs-3 text-success"></i>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-4">
+                                <p class="fw-bold">Size</p>
+                                <div class="d-flex gap-2 fs-4">
+                                    <i class="bi bi-dash-circle text-secondary"></i>
+                                    <p>28</p>
+                                    <i class="bi bi-plus-circle"></i>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <p class="fw-bold">Jumlah</p>
+                                <div class="d-flex gap-2 fs-4">
+                                    <i class="bi bi-dash-circle text-secondary"></i>
+                                    <p>1</p>
+                                    <i class="bi bi-plus-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-2">
+                            <button type="button"
+                                class="btn btn-outline-danger d-grid col-md-3 col-sm-3 rounded-pill">Chat</button>
+                            <button type="button"
+                                class="btn btn-outline-danger d-grid col-md-3 col-sm-3 rounded-pill">Bag</button>
+                            <button type="button" class="btn btn-danger d-grid col-md-6 col-sm-6 rounded-pill">Buy
+                                Now</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row g-3 mt-3">
+                    <div class="col-12">
+                        <h3 class="fw-bold">Informasi Produk</h3>
+                    </div>
+                    <div class="col-12">
+                        <h4 class="fw-bold">Condition</h4>
+                        <h5 class="text-danger fw-bold">New</h5>
+                    </div>
+                    <div class="col-12">
+                        <h4 class="fw-bold">Description</h4>
+                        <p class="text-secondary" style="text-align: justify;">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+                            Donec non magna rutrum, pellentesque augue eu, sagittis velit. Phasellus quis laoreet dolor.
+                            Fusce nec pharetra quam. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                            Praesent sed enim vel turpis blandit imperdiet ac ac felis. Etiam tincidunt tristique
+                            placerat. Pellentesque a consequat mauris, vel suscipit ipsum.
+                            Donec ac mauris vitae diam commodo vehicula. Donec quam elit, sollicitudin eu nisl at,
+                            ornare suscipit magna.
+
+                            Donec non magna rutrum, pellentesque augue eu, sagittis velit. Phasellus quis laoreet dolor.
+                            Fusce nec pharetra quam. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                            Praesent sed enim vel turpis blandit imperdiet ac ac felis.
+
+                            In ultricies rutrum tempus. Mauris vel molestie orci.
+                        </p>
+                    </div>
+                    <div class="col-12">
+                        <h4 class="fw-bold">Product review</h4>
+                    </div>
+                    <div class="col-12">
+                        <div class="row g-3">
+                            <div class="col-md-2" style="font-size: 2.5rem;">
+                                <h1 class="fw-bold ">5.0<span class="text-secondary" style="font-size: 1.25rem;">/10</span></h1>
+                                <div class="d-flex text-warning">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+
+                                </div>
+                            </div>
+                            <div class="col-md-3 ">
+                                <div class="row g-1 align-items-center">
+                                    <div class="col-1">
+                                        <div class="d-flex align-items-center">
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-1">
+                                        <div class="d-flex align-items-center">
+                                            5
+                                        </div>
+                                    </div>
+                                    <div class="col-5">
+                                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar bg-warning" style="width: 70%"></div>
+                                          </div>
+                                    </div>
+                                </div>
+                                <div class="row g-1 align-items-center">
+                                    <div class="col-1">
+                                        <div class="d-flex align-items-center">
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-1">
+                                        <div class="d-flex align-items-center">
+                                            4
+                                        </div>
+                                    </div>
+                                    <div class="col-5">
+                                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar bg-warning" style="width: 70%"></div>
+                                          </div>
+                                    </div>
+                                </div>
+                                <div class="row g-1 align-items-center">
+                                    <div class="col-1">
+                                        <div class="d-flex align-items-center">
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-1">
+                                        <div class="d-flex align-items-center">
+                                            3
+                                        </div>
+                                    </div>
+                                    <div class="col-5">
+                                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar bg-warning" style="width: 50%"></div>
+                                          </div>
+                                    </div>
+                                </div>
+                                <div class="row g-1 align-items-center">
+                                    <div class="col-1">
+                                        <div class="d-flex align-items-center">
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-1">
+                                        <div class="d-flex align-items-center">
+                                            2
+                                        </div>
+                                    </div>
+                                    <div class="col-5">
+                                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar bg-warning" style="width: 70%"></div>
+                                          </div>
+                                    </div>
+                                </div>
+                                <div class="row g-1 align-items-center">
+                                    <div class="col-1">
+                                        <div class="d-flex align-items-center">
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-1">
+                                        <div class="d-flex align-items-center">
+                                            2
+                                        </div>
+                                    </div>
+                                    <div class="col-5">
+                                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar bg-warning" style="width: 70%"></div>
+                                          </div>
+                                    </div>
+                                </div>
+                                <div class="row g-1 align-items-center">
+                                    <div class="col-1">
+                                        <div class="d-flex align-items-center">
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-1">
+                                        <div class="d-flex align-items-center">
+                                            1
+                                        </div>
+                                    </div>
+                                    <div class="col-5">
+                                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar bg-warning" style="width: 30%"></div>
+                                          </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container mt-5">
+            <hr class="my-5">
+            <h1 class="display-6 fw-bold">
+                You can also like this
+            </h1>
+            <p class="text-secondary">
+                You've never seen it before!
+            </p>
+            <div class="row row-cols-1 row-cols-md-5 g-3">
+                <div class="col">
+                    <div class="card w-100 shadow" style="width: 18rem;">
+                        <img src="./assets/images/products/product1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Men's formal suit - Black & White</h5>
+                            <h6 class="fs-6 text-warning fw-bold">$ 40.0</h6>
+                            <h6 class="text-secondary fs-6">Zalora</h6>
+                            <div class="d-flex text-warning">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                                <p class="text-secondary mx-2">(10)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card w-100 shadow" style="width: 18rem;">
+                        <img src="./assets/images/products/product1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Men's formal suit - Black & White</h5>
+                            <h6 class="fs-6 text-warning fw-bold">$ 40.0</h6>
+                            <h6 class="text-secondary fs-6">Zalora</h6>
+                            <div class="d-flex text-warning">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                                <p class="text-secondary mx-2">(10)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card w-100 shadow" style="width: 18rem;">
+                        <img src="./assets/images/products/product1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Men's formal suit - Black & White</h5>
+                            <h6 class="fs-6 text-warning fw-bold">$ 40.0</h6>
+                            <h6 class="text-secondary fs-6">Zalora</h6>
+                            <div class="d-flex text-warning">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                                <p class="text-secondary mx-2">(10)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card w-100 shadow" style="width: 18rem;">
+                        <img src="./assets/images/products/product1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Men's formal suit - Black & White</h5>
+                            <h6 class="fs-6 text-warning fw-bold">$ 40.0</h6>
+                            <h6 class="text-secondary fs-6">Zalora</h6>
+                            <div class="d-flex text-warning">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                                <p class="text-secondary mx-2">(10)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card w-100 shadow" style="width: 18rem;">
+                        <img src="./assets/images/products/product1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Men's formal suit - Black & White</h5>
+                            <h6 class="fs-6 text-warning fw-bold">$ 40.0</h6>
+                            <h6 class="text-secondary fs-6">Zalora</h6>
+                            <div class="d-flex text-warning">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                                <p class="text-secondary mx-2">(10)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card w-100 shadow" style="width: 18rem;">
+                        <img src="./assets/images/products/product1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Men's formal suit - Black & White</h5>
+                            <h6 class="fs-6 text-warning fw-bold">$ 40.0</h6>
+                            <h6 class="text-secondary fs-6">Zalora</h6>
+                            <div class="d-flex text-warning">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                                <p class="text-secondary mx-2">(10)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card w-100 shadow" style="width: 18rem;">
+                        <img src="./assets/images/products/product1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Men's formal suit - Black & White</h5>
+                            <h6 class="fs-6 text-warning fw-bold">$ 40.0</h6>
+                            <h6 class="text-secondary fs-6">Zalora</h6>
+                            <div class="d-flex text-warning">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                                <p class="text-secondary mx-2">(10)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card w-100 shadow" style="width: 18rem;">
+                        <img src="./assets/images/products/product1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Men's formal suit - Black & White</h5>
+                            <h6 class="fs-6 text-warning fw-bold">$ 40.0</h6>
+                            <h6 class="text-secondary fs-6">Zalora</h6>
+                            <div class="d-flex text-warning">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                                <p class="text-secondary mx-2">(10)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card w-100 shadow" style="width: 18rem;">
+                        <img src="./assets/images/products/product1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Men's formal suit - Black & White</h5>
+                            <h6 class="fs-6 text-warning fw-bold">$ 40.0</h6>
+                            <h6 class="text-secondary fs-6">Zalora</h6>
+                            <div class="d-flex text-warning">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                                <p class="text-secondary mx-2">(10)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card w-100 shadow" style="width: 18rem;">
+                        <img src="./assets/images/products/product1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Men's formal suit - Black & White</h5>
+                            <h6 class="fs-6 text-warning fw-bold">$ 40.0</h6>
+                            <h6 class="text-secondary fs-6">Zalora</h6>
+                            <div class="d-flex text-warning">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                                <p class="text-secondary mx-2">(10)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card w-100 shadow" style="width: 18rem;">
+                        <img src="./assets/images/products/product1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Men's formal suit - Black & White</h5>
+                            <h6 class="fs-6 text-warning fw-bold">$ 40.0</h6>
+                            <h6 class="text-secondary fs-6">Zalora</h6>
+                            <div class="d-flex text-warning">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                                <p class="text-secondary mx-2">(10)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card w-100 shadow" style="width: 18rem;">
+                        <img src="./assets/images/products/product1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Men's formal suit - Black & White</h5>
+                            <h6 class="fs-6 text-warning fw-bold">$ 40.0</h6>
+                            <h6 class="text-secondary fs-6">Zalora</h6>
+                            <div class="d-flex text-warning">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                                <p class="text-secondary mx-2">(10)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card w-100 shadow" style="width: 18rem;">
+                        <img src="./assets/images/products/product1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Men's formal suit - Black & White</h5>
+                            <h6 class="fs-6 text-warning fw-bold">$ 40.0</h6>
+                            <h6 class="text-secondary fs-6">Zalora</h6>
+                            <div class="d-flex text-warning">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                                <p class="text-secondary mx-2">(10)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card w-100 shadow" style="width: 18rem;">
+                        <img src="./assets/images/products/product1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Men's formal suit - Black & White</h5>
+                            <h6 class="fs-6 text-warning fw-bold">$ 40.0</h6>
+                            <h6 class="text-secondary fs-6">Zalora</h6>
+                            <div class="d-flex text-warning">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                                <p class="text-secondary mx-2">(10)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card w-100 shadow" style="width: 18rem;">
+                        <img src="./assets/images/products/product1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Men's formal suit - Black & White</h5>
+                            <h6 class="fs-6 text-warning fw-bold">$ 40.0</h6>
+                            <h6 class="text-secondary fs-6">Zalora</h6>
+                            <div class="d-flex text-warning">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                                <p class="text-secondary mx-2">(10)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+
+</html>
